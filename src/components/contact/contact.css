@@ -1,0 +1,58 @@
+.contact__container {
+        
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.5rem;
+    }
+
+
+
+.contact__option {
+    margin: 5rem;
+}
+
+.contact__option {
+    background-color: var(--color-bg-variant);
+    padding: 1.2rem;
+    border-radius: 1.2rem;
+    text-align: center;
+    border: 1px solid transparent;
+    transition: var(--transition);
+};
+.experience__container > div:hover {
+    background: transparent;
+    border-color: var(--color-primary-variant);
+    cursor: default;
+}
+
+.contact__option > article:hover {
+    background: transparent;
+    border-color: var(--color-primary-variant);
+    cursor: pointer;
+}
+
+.contact__option-icon {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.contact__option a {
+    margin-top: 0.7rem;
+    display: inline-block;
+}
+
+
+/* MEDIA */
+@media screen and (max-width: 1024px) {
+    .contact__container {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    
+}
+
+@media screen and (max-width: 600px){
+    .contact__container {
+        grid-template-columns: 1fr;
+        
+      }
+} 

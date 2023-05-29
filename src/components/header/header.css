@@ -1,0 +1,86 @@
+
+
+
+    header {
+        height: 100vh;
+        padding-top: 7rem;
+        overflow: hidden;
+    };
+
+    .h1__header {
+        text-align: center;
+    }
+
+
+    /* CTA */
+
+
+
+    .header__container {
+        text-align: center;
+        height: 100%;
+        position: relative;
+    }
+
+    .cta {
+        margin-top: 2.5rem;
+        display: flex;
+        gap: 1.5rem;
+        justify-content: center;
+    }
+
+    /* HEADERSOCIAL */
+
+    #socials {
+        display: flex;
+        flex-direction: row;
+        gap: 1.8rem;
+        justify-content: center;
+        margin-top: 3rem;
+        margin-bottom: -3rem;
+        
+    
+    }
+
+
+    .me {
+        background: linear-gradient(var(--color-primary), transparent);
+        width: 22rem;
+        height: 30rem;
+        position: absolute;
+        left: calc(50% - 11rem);
+        border-radius: 12rem 12rem 5rem 5rem;
+        overflow: hidden;
+        padding-top: .5rem;
+        margin-top: 4rem;
+    
+
+        
+    }
+
+  
+    /* SCROLL DOWN */
+
+    .scroll__down {
+        position: absolute;
+        right: 3rem;
+        bottom: 5rem;
+        transform: rotate(90deg);
+        font-weight: 200;
+        font-size: 0.9rem;
+    }
+
+
+    header {
+        height: 130vh;
+        padding-top: 7rem;
+        overflow: hidden;
+    };
+
+
+
+
+
+
+
+
